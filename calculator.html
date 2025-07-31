@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculator</title>
+  <link rel="stylesheet" href="calculator.css">
+</head>
+<body>
+  <div class="calc-container">
+    <div class="calc-cover" id="calc-cover">Open Calculator</div>
+    <div class="calculator" id="calculator">
+      <div class="display" id="display">0</div>
+      <div class="buttons">
+        <button class="clear" data-action="clear">C</button>
+        <button class="operator" data-action="/">÷</button>
+        <button class="operator" data-action="*">×</button>
+        <button class="operator" data-action="-">−</button>
+        <button data-action="7">7</button>
+        <button data-action="8">8</button>
+        <button data-action="9">9</button>
+        <button class="operator" data-action="+">+</button>
+        <button data-action="4">4</button>
+        <button data-action="5">5</button>
+        <button data-action="6">6</button>
+        <button data-action=".">.</button>
+        <button data-action="1">1</button>
+        <button data-action="2">2</button>
+        <button data-action="3">3</button>
+        <button class="sqrt" data-action="sqrt">√</button>
+        <button class="equals" data-action="=">=</button>
+        <button data-action="0" style="grid-column: span 2;">0</button>
+      </div>
+    </div>
+  </div>
+  <script src="calculator.js"></script>
+</body>
+</html> 
